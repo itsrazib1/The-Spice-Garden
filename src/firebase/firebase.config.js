@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAqioCQVyST12hSdKo798FGbBZtuOPnuOg",
-    authDomain: "spice-garden-7fa4a.firebaseapp.com",
-    projectId: "spice-garden-7fa4a",
-    storageBucket: "spice-garden-7fa4a.appspot.com",
-    messagingSenderId: "957603941906",
-    appId: "1:957603941906:web:e95c40ff00169b83a412cb"
+  apiKey: "AIzaSyAqioCQVyST12hSdKo798FGbBZtuOPnuOg",
+  authDomain: "spice-garden-7fa4a.firebaseapp.com",
+  projectId: "spice-garden-7fa4a",
+  storageBucket: "spice-garden-7fa4a.appspot.com",
+  messagingSenderId: "957603941906",
+  appId: "1:957603941906:web:e95c40ff00169b83a412cb"
 };
 
 // Initialize Firebase
