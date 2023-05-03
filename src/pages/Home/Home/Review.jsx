@@ -3,6 +3,7 @@ import React from 'react';
 const Review = () => {
     return (
         <div>
+          <div className=' text-5xl text-center'>Review</div>
              <section className="container md:w-9/12 mx-auto px-10 md:px-0 py-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="max-w-4xl px-4 mx-auto sm:px-6 lg:px-8">

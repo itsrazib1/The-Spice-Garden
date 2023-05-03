@@ -13,7 +13,7 @@ const Chef = ({ chef }) => {
           <div className='text-red-800 text-1xl md:text-2xl'>
             <span className='flex gap-2 justify-items-center items-center '>
               <FaHandPeace />
-              Review: {likes}
+              Likes: {likes}
             </span>
             <span className='flex gap-2 justify-items-center items-center'>
               <FaBreadSlice />
