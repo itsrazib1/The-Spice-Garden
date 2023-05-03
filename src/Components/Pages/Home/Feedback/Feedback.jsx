@@ -9,7 +9,7 @@ const Feedback = () => {
             <div className="relative flex-shrink-0 w-48 min-h-min">
               <img
                 className="relative object-cover w-28 h-28 rounded-full p-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
-                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dXNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/337679212_737992261352425_7064005870337292651_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHlSASfMfAuUeGeL3OW1TgbExfbbv42IegTF9tu_jYh6CByjiJ0D2ApBlajbAPmZKW3pIDz0X5oslR1IHuvYKc9&_nc_ohc=vTeEn7-2ytIAX-WncZ2&_nc_ht=scontent.fdac135-1.fna&oh=00_AfAyL_4yEfriRND4my1tqttv_e1Qup_oXA-dB5R0JSxEMQ&oe=645792C5"
                 alt=""
               />
             </div>
@@ -22,7 +22,7 @@ const Feedback = () => {
                 </p>
               </blockquote>
               <p className="text-lg font-semibold text-black dark:text-white mt-7">
-                John Doe
+                Khayrul Kober Razib
               </p>
               <p className="mt-1 text-base text-gray-600">
                 Frontend Developer at DevUI
@@ -35,8 +35,7 @@ const Feedback = () => {
             <div className="relative flex-shrink-0 w-48 min-h-min">
               <img
                 className="relative object-cover w-28 h-28 rounded-full p-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"
-                src="https://images.unsplash.com/photo-1546961329-78bef0414d7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHVzZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
-                alt="Ketty Perry"
+                src="https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-1/328521777_711391917072725_1649859154462302940_n.jpg?stp=dst-jpg_p240x240&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeG_mcybhDvFs4xShu6ksDzWCuRhc8HMGgoK5GFzwcwaCvtRAyH1NPs2wnBJG8MjKFvBJQ_xvRkEi_NXs6Y4z3LK&_nc_ohc=OWXT9H9f3e0AX89oLbw&_nc_ht=scontent.fdac135-1.fna&oh=00_AfBqZwVpO9NosbcXAvEv44jtLEsFGMadf7NclWtxBYu_QA&oe=64574D25"
               />
             </div>
             <div className="mt-8">
@@ -48,10 +47,10 @@ const Feedback = () => {
                 </p>
               </blockquote>
               <p className="text-lg font-semibold text-black dark:text-white mt-7">
-                Ketty Perry
+                Pronab Saha
               </p>
               <p className="mt-1 text-base text-gray-600">
-                UI/UX Designer at DevUI
+                BissnessMan
               </p>
             </div>
           </div>

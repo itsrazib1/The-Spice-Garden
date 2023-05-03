@@ -21,7 +21,7 @@ const Blog = () => {
         </ReactToPdf>
       </div>
       <div ref={ref}>
-        <div className="mt-12 mx-10 text-orange-400 border-2 bg-orange-50  border-orange-400 rounded p-5">
+        <div className="mt-12 mx-10 text-red-500 border-2 bg-orange-50  border-orange-400 rounded p-5">
           <div>
             <h3 className="text-3xl font-semibold p-3">
               Q: Tell us the differences between uncontrolled and controlled
