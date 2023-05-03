@@ -4,7 +4,7 @@ import Header from '../pages/Shared/Header';
 
 const Access = () => {
   return (
-    <div className='container mx-auto'>
+    <div className='container mx-auto '>
       <Header></Header>
       <Outlet></Outlet>
     </div>
