@@ -6,7 +6,13 @@ const ErrorPage = () => {
     <div className="py-10">
       <div className="text-center">
         <p className="text-primary">404</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQu9Qa9thMtJycBcNsYEqcAnVEHYwF2a8pQ&usqp=CAU" alt="" />
+        <div className="">
+          <img
+          className="mx-auto"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfQu9Qa9thMtJycBcNsYEqcAnVEHYwF2a8pQ&usqp=CAU"
+            alt=""
+          />
+        </div>
         <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-200 sm:text-5xl">
           Page not found
         </h1>
@@ -15,9 +21,7 @@ const ErrorPage = () => {
         </p>
         <div className="flex items-center justify-center mt-6 gap-x-3">
           <Link to="/">
-            <button className=" btn btn-primary ">
-              Go Home
-            </button>
+            <button className=" btn btn-primary ">Go Home</button>
           </Link>
         </div>
       </div>
