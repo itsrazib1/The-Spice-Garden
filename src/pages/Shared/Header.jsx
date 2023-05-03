@@ -19,7 +19,7 @@ const Header = () => {
     <>
       {/* add new one */}
       <div className='md:px-32'>
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-green-100 rounded-3xl">
           <div className="navbar-start">
             <div className="dropdown">
               {/* toggle button in small screen */}
