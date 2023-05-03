@@ -11,7 +11,7 @@ const Footer = () => {
          
           <div className="grow mt-4 md:mt-0 md:ml-12">
             <p className="font-semibold text-base text-gray-500 dark:text-gray-300">
-              © 2023  Flavour Fusion
+              © 2023  Spice Garden
             </p>
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
