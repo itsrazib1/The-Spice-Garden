@@ -17,9 +17,8 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="mx-5">
+    <div>
       <Swiper
-      
         slidesPerView={1}
         spaceBetween={30}
         loop={true}

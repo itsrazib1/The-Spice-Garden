@@ -2,17 +2,7 @@ import React, { createContext, useState } from "react";
 import { FaThumbsUp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
-const   ChefCard = ({ chef }) => {
-
-  const [chefInfo, setShefInfo] = useState(null);
-
-  const handleViewRecipe = () => { 
-    setShefInfo(chef);
-  console.log(chef);
-  }
-
-
+const ChefCard = ({ chef }) => {
   const {
     id,
     chefName,
@@ -24,7 +14,7 @@ const   ChefCard = ({ chef }) => {
   } = chef;
   return (
     <>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card w-96 mx-auto bg-base-100 shadow-xl">
         <figure>
           <img className="h-58" src={chefPicture} alt="Chef" />
         </figure>
@@ -38,8 +28,8 @@ const   ChefCard = ({ chef }) => {
           </p>
 
           <div className="card-actions justify-between items-center">
-            <Link to={`/recipes/${id}`}>
-              <button onClick={handleViewRecipe} className="btn btn-warning">View Recipes</button>
+            <Link to={`/chefRecipes/${id}`}>
+              <button className="btn btn-primary">View Recipes</button>
             </Link>
 
             <div className="badge badge-outline gap-2">

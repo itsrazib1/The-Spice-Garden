@@ -8,12 +8,13 @@ import Blog from "../Pages/Blog/Blog";
 import Recipes from "../Pages/Recipes/Recipes";
 import PrivateRoute from "./PrivateRoute";
 import ErrorPage from "../Pages/Error/ErrorPage";
+import Contact from "../Pages/Contact/Contact";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    errorElement: <ErrorPage></ErrorPage>,
+    // errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -33,7 +34,15 @@ const router = createBrowserRouter([
         element: <Blog></Blog>,
       },
       {
-        path: "/recipes/:id",
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+      {
+        path: "/terms",
+        element: <h2>Terms and Condition page coming soon...</h2>,
+      },
+      {
+        path: "/chefRecipes/:id",
         element: <PrivateRoute><Recipes></Recipes></PrivateRoute>,
         loader: ({params})=>fetch(`https://server-spice-garden-xoxorazibahamed-gmailcom.vercel.app/recipes/${params.id}`)
       }
