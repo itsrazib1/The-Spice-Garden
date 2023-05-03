@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProviders';
 import { FaGithub, FaGoogle } from 'react-icons/fa';
+import Footer from '../Shared/Footer';
 
 const Login = () => {
   const { emailSingIn, googleSignIn, gitHubSignIn } = useContext(AuthContext);
@@ -50,15 +51,16 @@ const Login = () => {
   }
 
   return (
-    <div>
+  
+    <div className='-mb-5'>
       <div className="text-center mx-auto p-5 md:p-10 form-control w-full max-w-sm">
-        <form onSubmit={handleLogin} className='mb-3'>
+        <form onSubmit={handleLogin} className='mb-3 border-2 p-5 border-blue-700'>
           <h3 className='text-3xl mb-5'>Please, Login!</h3>
           <span className="label-text">What is your Email?</span>
           <input type="email" placeholder="Enter Your E-mail" name='email' className="input input-bordered w-full max-w-xs text-center mb-3" required />
           <span className="label-text">Enter your password?</span>
           <input type="password" placeholder="Enter Your Password" name='password' className="input input-bordered w-full max-w-xs text-center mb-3" required />
-          <button className="btn btn-outline text-black-800">Login</button>
+          <button className="btn px-7  btn-outline text-black-800">Login</button>
         </form>
         <div className='text-center'>
           <p>Or Login with</p>
@@ -69,12 +71,15 @@ const Login = () => {
           <p>Do you need an account?
             <br />
             <Link to='/access/register'>
-              <span className='underline decoration-1'>Sign up</span>
+              <span className='underline decoration-1'>Sign up/Registation</span>
             </Link>
           </p>
         </div>
       </div>
+      <Footer></Footer>
     </div>
+    
+   
   );
 };
 

@@ -41,7 +41,7 @@ const Header = () => {
                   <NavLink
                     to="/blogs"
                     className={({ isActive, isPending }) =>
-                      isActive ? "font-bold decoration-stone-950" : ""
+                      isActive ? "font-bold decoration-stone-950 " : ""
                     }
                   >
                     Blogs
@@ -60,7 +60,7 @@ const Header = () => {
                 <NavLink
                   to="/"
                   className={({ isActive, isPending }) =>
-                    isActive ? "font-bold text-white bg-red-800" : ""
+                    isActive ? "font-bold text-white bg-red-800 px-10 mx-5" : "mx-5 px-10"
                   }
                 >
                   Home
@@ -70,7 +70,7 @@ const Header = () => {
                 <NavLink
                   to="/recipes"
                   className={({ isActive, isPending }) =>
-                    isActive ? "font-bold text-white bg-red-800" : ""
+                    isActive ? "font-bold text-white bg-red-800 px-10 mx-5" : "mx-5 px-10"
                   }
                 >
                   Recipes
@@ -80,7 +80,7 @@ const Header = () => {
                 <NavLink
                   to="/blogs"
                   className={({ isActive, isPending }) =>
-                    isActive ? "font-bold text-white bg-red-800" : ""
+                    isActive ? "font-bold text-white bg-red-800 px-10 mx-5" : "mx-5 px-10"
                   }
                 >
                   Blogs
