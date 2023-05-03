@@ -54,7 +54,7 @@ const Navbar = () => {
           </div>
           <Link to="/">
             <h2 className="md:text-3xl text-lg font-bold text-primary md:ml-10">
-              Flavour Fusion
+            Spice Garden
             </h2>
           </Link>
         </div>
