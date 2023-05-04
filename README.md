@@ -31,4 +31,4 @@ License
  Spice Garden is licensed under the MIT license. See the LICENSE file for more details.
 
 ## **Contact** ##
-If you have any questions or feedback about  Spice Garden, please contact us at abusayedalsiam2023@gmail.com.
+If you have any questions or feedback about  Spice Garden, please contact us at itsrazib1@gmail.com
