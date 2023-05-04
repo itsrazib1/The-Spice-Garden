@@ -4,7 +4,6 @@ import {
 import Main from "../layout/Main";
 import Home from "../pages/Home/Home/Home";
 import Recipes from "../pages/Home/Recipes";
-import Blogs from "../pages/Home/Blogs";
 import UserProfile from "../pages/Home/UserProfile";
 import Access from "../layout/access";
 import Register from "../pages/Access/Register";
@@ -12,6 +11,8 @@ import Login from "../pages/Access/Login";
 import ChefDetails from "../pages/Home/ChefDetails/ChefDetails";
 import PrivateRoute from "./PrivateRoute";
 import Error from "../layout/Error";
+import Blogs from "../pages/Home/Blogs";
+
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/blogs',
-        element: <Blogs></Blogs>
+        element:<Blogs/>
       },
       {
         path: '/user-profile',
