@@ -1,6 +1,6 @@
 # __ Spice Garden__ #
 Welcome to __ Spice Garden__, a website dedicated to exploring the world of food and discovering new and exciting flavour combinations!
- [See live site:](https://spice-garden-7fa4a.web.app/) 
+ [See live site:](https://spice-garden-7fa4a.web.app/) https://spice-garden-7fa4a.web.app/
 
 ## __Overview__ ##
  Spice Garden is a website that allows users to search for and share recipes, as well as create their own unique flavour combinations. Users can browse recipes by category, ingredient, or cuisine, and can save their favourite recipes for future reference. Additionally, users can create and share their own flavour combinations with the community, and can rate and comment on other users' combinations.
